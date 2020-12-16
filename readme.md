@@ -1,11 +1,25 @@
-# P422 Project (REPLACE ME)
+# P422 Project
 
-Here, you should put your project proposal. It should be written in english text and describe what you intend to build along with any information necessary. Please use proper markdown formatting. You can find a guide here: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
+Thomas Woods
+Project proposal.
 
-Your project should have the following requirements met:
-
-* A server side component written with javascript that stores information in a database
-* A client side component written in Angular
-* At least four different interactive views for the client
-
-You may choose whatever kid of project you like within the ethical guidlines of the university. Commit your propasal to this file and we will discuss your project idea if it needs improvement.
+	I would like to make a small maze game.  The minimum amount of things that I would like to have it due are as follows:
+*	Create and use accounts for individual users.
+*	Procedurally generate a map of at least 6x6.
+*	Seed generation based on username.
+*	Text to describe current location in map. (think text based adventure).
+If minimum requirements end up being easy to implement and can be done before project due date, these additional features will be considered and implemented into game:
+*	Locked doors and keys can generate in map.
+*	Enemies with simple behaviors, and weapons generating in map.
+*	Bigger possible map generation.
+*	Option for seed generation based on user specified phrase
+*	Option for random map generation.
+*	Difficulty selection:
+    *	Easy: no enemies, 6x6 size map, no doors
+    *	Normal: no enemies, 25x25 size map, doors and keys generate
+    *	Hard: enemies, 100x100 size map, doors and keys generate
+*	Images to replace text description.
+*	Score based on several factors:
+    *	Minimum amount of moves
+    *	Enemies defeated
+    *	Items found
